@@ -1,7 +1,7 @@
 version: '2'
 services:
   mininet:
-    build: .
+    build: nunocv/tp2_vr
     container_name: "mininet"
     volumes:
       - ./data/mininet:/home/mininet
