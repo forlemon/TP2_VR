@@ -6,6 +6,7 @@ RUN apt-get update \
     git \
     tcpdump \
     sudo
+RUN apt-get install -y wireshark
 
 WORKDIR /
 RUN git clone git://github.com/mininet/mininet
